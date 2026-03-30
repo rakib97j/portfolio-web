@@ -4,8 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="shortcut icon" href="image/circle-info-solid-full.svg" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
 </head>
-<body>
+<body class="bg-black">
+
+    <nav class="text-[#C7C7C7] flex mt-6 mb-3.5 mx-4 md:mx-16 justify-between">
+      <div>
+        <a href="index.html"  class="font-bold text-xl md:text-4xl">RAKIB HASSAN</a>
+      </div>
+
+      <div class="flex gap-3 md:gap-8 text-lg my-auto">
+        <a href="work.html" target="_blank">Work</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="contact.html" target="_blank">Contact</a>
+      </div>
+    </nav>
+    <hr class="text-[#C7C7C770]" />
+
+
+    <main>
+        <!-- About me section -->
+          <section class=" flex-col sm:flex-row flex gap-15 sm:gap-52  container mx-auto mt-10 mb-20 sm:mt-32 sm:mb-40 ">
+            <div>
+                <h1 class="uppercase font-normal text-8xl text-white">About me</h1>
+            </div>
+            <div>
+                <h1 class="text-3xl font-medium mb-4 leading-[1.4] text-white">I am a front-end developer based in Sydney. Has Mechanical Engineering background. </h1>
+                <p class="text-[#C7C7C796] mb-8  text-sm  sm:text-lg font-medium">I am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring React js, Web flow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing GTA-V. Learning more to improve skill.</p>
+                <div class="">
+            <button class= " text-lg font-bold bg-[#D3E97A] text-black py-2 px-4 rounded-full hover:bg-[#c5dd66ea]">Download Resume <i class="fa-regular fa-file" style="color:black"></i></button>
+            <a href="https://www.linkedin.com/in/rakib97j/" target="_blank" class="p-3 rounded-full hover:bg-[#222222be] bg-[#222222] ml-4"
+              ><i class="fa-brands fa-linkedin-in text-[#D3E97A] "></i
+            ></a>
+            <a href="https://github.com/rakib97j" target="_blank" class="p-3 rounded-full hover:bg-[#222222be] bg-[#222222] ml-4"
+              ><i class="fa-brands fa-github text-[#D3E97A]"></i
+            ></a>
+          </div>
+            </div>
+          </section>
+           <hr class="text-[#C7C7C770]" />
+
+
+          <!-- image section  -->
+           <section>
+            <div class="bg-gray-300 mt-6 sm:w-7xl h-[550px] sm:h-[700px] rounded-xl  mx-auto mb-10 relative">
+                <img src="image/image.png" alt="" class="absolute bottom-0  left-5 sm:left-[420px]">
+            </div>
+           </section>
+
+
+           <!-- My Capabilities sections -->
+            <section class="flex-col sm:flex-row flex  justify-between gap-8  container mx-auto mt-10 mb-20 sm:mt-32 sm:mb-40">
+                <div>
+                    <h1 class="uppercase font-black text-7xl text-white">My  Capabilities.</h1>
+                </div>
+                <div>
+                    <p class="text-[#C7C7C796] mb-8  text-sm  sm:w-[600px] sm:text-lg font-medium">I am always looking to add more skills.Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at purus faucibus tristique ut et dolor. </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 pb-5">
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:bg-[#F54927] hover:border-[#F54927] ">HTML</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:bg-[#1572B6] hover:border-[#1572B6]">CSS</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-black hover:bg-[#F7DF1E] hover:border-[#F7DF1E]">JAVASCRIPT</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-[#20232A] hover:bg-[#61DAFB] hover:border-[#61DAFB]">REACT</p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row  gap-4">
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-[#0F172A] hover:bg-[#06B6D4] hover:border-[#06B6D4]">TAILWIND CSS</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-[#9F00FF] hover:bg-[#FFB100] hover:border-[#FFB100]">DAISY UI</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-[#444444] hover:bg-[#F05032] hover:border-[#F05032]">GIT</p>
+                        <p class="text-center text-white py-5 px-10 border font-bold rounded-full hover:text-[#0366D6] hover:bg-[#181717] hover:border-[#181717]">GIT HUB</p>
+                    </div>
+                </div>
+            </section>
+    </main>
     
 </body>
 </html>
