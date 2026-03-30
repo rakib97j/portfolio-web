@@ -314,10 +314,97 @@
       <hr class="text-[#C7C7C770]" />
     </main>
 
-    <footer class="container mx-auto mt-16">
+    <footer class="container mx-auto mt-16 flex sm:flex-row flex-col justify-between sm:mb-20">
       <!-- left side  -->
-      <div>
-        <h1 class="text-6xl font-medium text-white">Let’s connect</h1>
+      <div class="text-[#C7C7C7]">
+        <h1 class="text-6xl font-bold text-white mb-4 uppercase">Let’s connect</h1>
+        <p class="pb-4">
+          Say hello at
+          <a
+            href="mailto:rakibulhassanrakib559@gmail.com"
+            class="underline underline-offset-4 "
+            >rakibulhassanrakib559@gmail.com</a
+          >
+        </p>
+        <p class="pb-4">
+          For more info, here’s my
+          <a href="" class="underline underline-offset-4">LINKEDIN</a>
+        </p>
+        <div class="flex gap-6 text-2xl pb-4 ">
+          <a href=""
+            ><i
+              class="fa-brands fa-linkedin-in "
+              style="color: rgb(211, 233, 122)"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-github"
+              style="color: rgb(211, 233, 122)"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: rgb(211, 233, 122)"
+            ></i
+          ></a>
+          <a href=""
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: rgb(211, 233, 122)"
+            ></i
+          ></a>
+        </div>
+        <p class="mt-52 hidden sm:block">© 2023 Robert Garcia</p>
+      </div>
+      <!-- Right side -->
+      <div class="sm:w-[600px] mx-4">
+        <form
+          action="mailto:yourmail@example.com"
+          method="post"
+          enctype="text/plain"
+          class="flex flex-col gap-2 w-full max-w-md"
+        >
+          <label class="text-white">Name</label>
+          <input
+            type="text"
+            name="Name"
+            placeholder="Enter your name"
+            class="bg-[#484848] text-white p-2 rounded-md"
+          />
+
+          <label class="text-white">Email</label>
+          <input
+            type="email"
+            name="Email"
+            placeholder="your@email.com"
+            class="bg-[#484848] text-white p-2 rounded-md"
+          />
+
+          <label class="text-white">Subject</label>
+          <input
+            type="text"
+            name="Subject"
+            placeholder="Subject"
+            class="bg-[#484848] text-white p-2 rounded-md"
+          />
+
+          <label class="text-white">Message</label>
+          <textarea
+            name="Message"
+            placeholder="Type your message..."
+            class="bg-[#484848] text-white p-2 rounded-md h-32"
+          ></textarea>
+
+          <button
+            type="submit"
+            class=" bg-[#D3E97A] text-black font-bold py-2 px-4 rounded-full w-32"
+          >
+            SUBMIT
+          </button>
+          <p class="text-amber-50 text-left mt-8 sm:hidden underline mb-8 mx-auto ">© 2023 Robert Garcia</p>
+        </form>
       </div>
     </footer>
   </body>
